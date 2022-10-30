@@ -13,7 +13,7 @@
  aspect-ratio: 960/170;
  width: 100%;
 }
-.cart {
+.cart-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,26 @@
   height: 3rem;
   font-size: 1.75rem;
   cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.cart-btn:hover{
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+  color: #ef3e36;
+}
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  background: #282c34;
+  height: 20vh;
+  position: absolute;
+  right: 2rem;
+  top: 0.5rem;
+  z-index: 1000;
+  color: #FBAE3C;
+  border-radius: 2rem;
 }
 .hero h1,.hero h2 {
   font-family: 'Ubuntu', sans-serif;
@@ -64,7 +84,6 @@ img {
 }
 
 footer {
-  margin-top: 20vh;
   display: flex;
   justify-content: center;
 }
