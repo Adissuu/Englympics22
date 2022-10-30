@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D14245FD290F16D300766B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14245FC290F16D300766B16 /* AppDelegate.swift */; };
+		D14245FF290F16D300766B16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14245FE290F16D300766B16 /* SceneDelegate.swift */; };
+		D1424601290F16D300766B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1424600290F16D300766B16 /* ViewController.swift */; };
+		D1424604290F16D400766B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1424602290F16D400766B16 /* Main.storyboard */; };
+		D1424606290F16D700766B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1424605290F16D700766B16 /* Assets.xcassets */; };
+		D1424609290F16D700766B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1424607290F16D700766B16 /* LaunchScreen.storyboard */; };
+		D1424614290F16D700766B16 /* Potato_Cloud_FestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1424613290F16D700766B16 /* Potato_Cloud_FestTests.swift */; };
+		D142461E290F16D800766B16 /* Potato_Cloud_FestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D142461D290F16D800766B16 /* Potato_Cloud_FestUITests.swift */; };
+		D1424620290F16D800766B16 /* Potato_Cloud_FestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D142461F290F16D800766B16 /* Potato_Cloud_FestUITestsLaunchTests.swift */; };
+		D142462D290F17F600766B16 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D142462C290F17F600766B16 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1424610290F16D700766B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14245F1290F16D300766B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14245F8290F16D300766B16;
+			remoteInfo = "Potato Cloud Fest";
+		};
+		D142461A290F16D800766B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14245F1290F16D300766B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14245F8290F16D300766B16;
+			remoteInfo = "Potato Cloud Fest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D14245F9290F16D300766B16 /* Potato Cloud Fest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Potato Cloud Fest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14245FC290F16D300766B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D14245FE290F16D300766B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1424600290F16D300766B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1424603290F16D400766B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1424605290F16D700766B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1424608290F16D700766B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D142460A290F16D700766B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D142460F290F16D700766B16 /* Potato Cloud FestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Potato Cloud FestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1424613290F16D700766B16 /* Potato_Cloud_FestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potato_Cloud_FestTests.swift; sourceTree = "<group>"; };
+		D1424619290F16D800766B16 /* Potato Cloud FestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Potato Cloud FestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D142461D290F16D800766B16 /* Potato_Cloud_FestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potato_Cloud_FestUITests.swift; sourceTree = "<group>"; };
+		D142461F290F16D800766B16 /* Potato_Cloud_FestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potato_Cloud_FestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D142462C290F17F600766B16 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14245F6290F16D300766B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D142460C290F16D700766B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1424616290F16D800766B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14245F0290F16D300766B16 = {
+			isa = PBXGroup;
+			children = (
+				D14245FB290F16D300766B16 /* Potato Cloud Fest */,
+				D1424612290F16D700766B16 /* Potato Cloud FestTests */,
+				D142461C290F16D800766B16 /* Potato Cloud FestUITests */,
+				D14245FA290F16D300766B16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14245FA290F16D300766B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14245F9290F16D300766B16 /* Potato Cloud Fest.app */,
+				D142460F290F16D700766B16 /* Potato Cloud FestTests.xctest */,
+				D1424619290F16D800766B16 /* Potato Cloud FestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14245FB290F16D300766B16 /* Potato Cloud Fest */ = {
+			isa = PBXGroup;
+			children = (
+				D14245FC290F16D300766B16 /* AppDelegate.swift */,
+				D14245FE290F16D300766B16 /* SceneDelegate.swift */,
+				D1424600290F16D300766B16 /* ViewController.swift */,
+				D1424602290F16D400766B16 /* Main.storyboard */,
+				D142462C290F17F600766B16 /* logo.png */,
+				D1424605290F16D700766B16 /* Assets.xcassets */,
+				D1424607290F16D700766B16 /* LaunchScreen.storyboard */,
+				D142460A290F16D700766B16 /* Info.plist */,
+			);
+			path = "Potato Cloud Fest";
+			sourceTree = "<group>";
+		};
+		D1424612290F16D700766B16 /* Potato Cloud FestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1424613290F16D700766B16 /* Potato_Cloud_FestTests.swift */,
+			);
+			path = "Potato Cloud FestTests";
+			sourceTree = "<group>";
+		};
+		D142461C290F16D800766B16 /* Potato Cloud FestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D142461D290F16D800766B16 /* Potato_Cloud_FestUITests.swift */,
+				D142461F290F16D800766B16 /* Potato_Cloud_FestUITestsLaunchTests.swift */,
+			);
+			path = "Potato Cloud FestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14245F8290F16D300766B16 /* Potato Cloud Fest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1424623290F16D800766B16 /* Build configuration list for PBXNativeTarget "Potato Cloud Fest" */;
+			buildPhases = (
+				D14245F5290F16D300766B16 /* Sources */,
+				D14245F6290F16D300766B16 /* Frameworks */,
+				D14245F7290F16D300766B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Potato Cloud Fest";
+			productName = "Potato Cloud Fest";
+			productReference = D14245F9290F16D300766B16 /* Potato Cloud Fest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D142460E290F16D700766B16 /* Potato Cloud FestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1424626290F16D800766B16 /* Build configuration list for PBXNativeTarget "Potato Cloud FestTests" */;
+			buildPhases = (
+				D142460B290F16D700766B16 /* Sources */,
+				D142460C290F16D700766B16 /* Frameworks */,
+				D142460D290F16D700766B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1424611290F16D700766B16 /* PBXTargetDependency */,
+			);
+			name = "Potato Cloud FestTests";
+			productName = "Potato Cloud FestTests";
+			productReference = D142460F290F16D700766B16 /* Potato Cloud FestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1424618290F16D800766B16 /* Potato Cloud FestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1424629290F16D800766B16 /* Build configuration list for PBXNativeTarget "Potato Cloud FestUITests" */;
+			buildPhases = (
+				D1424615290F16D800766B16 /* Sources */,
+				D1424616290F16D800766B16 /* Frameworks */,
+				D1424617290F16D800766B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D142461B290F16D800766B16 /* PBXTargetDependency */,
+			);
+			name = "Potato Cloud FestUITests";
+			productName = "Potato Cloud FestUITests";
+			productReference = D1424619290F16D800766B16 /* Potato Cloud FestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14245F1290F16D300766B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D14245F8290F16D300766B16 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D142460E290F16D700766B16 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D14245F8290F16D300766B16;
+					};
+					D1424618290F16D800766B16 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D14245F8290F16D300766B16;
+					};
+				};
+			};
+			buildConfigurationList = D14245F4290F16D300766B16 /* Build configuration list for PBXProject "Potato Cloud Fest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14245F0290F16D300766B16;
+			productRefGroup = D14245FA290F16D300766B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14245F8290F16D300766B16 /* Potato Cloud Fest */,
+				D142460E290F16D700766B16 /* Potato Cloud FestTests */,
+				D1424618290F16D800766B16 /* Potato Cloud FestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14245F7290F16D300766B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D142462D290F17F600766B16 /* logo.png in Resources */,
+				D1424609290F16D700766B16 /* LaunchScreen.storyboard in Resources */,
+				D1424606290F16D700766B16 /* Assets.xcassets in Resources */,
+				D1424604290F16D400766B16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D142460D290F16D700766B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1424617290F16D800766B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14245F5290F16D300766B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1424601290F16D300766B16 /* ViewController.swift in Sources */,
+				D14245FD290F16D300766B16 /* AppDelegate.swift in Sources */,
+				D14245FF290F16D300766B16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D142460B290F16D700766B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1424614290F16D700766B16 /* Potato_Cloud_FestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1424615290F16D800766B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D142461E290F16D800766B16 /* Potato_Cloud_FestUITests.swift in Sources */,
+				D1424620290F16D800766B16 /* Potato_Cloud_FestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1424611290F16D700766B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14245F8290F16D300766B16 /* Potato Cloud Fest */;
+			targetProxy = D1424610290F16D700766B16 /* PBXContainerItemProxy */;
+		};
+		D142461B290F16D800766B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14245F8290F16D300766B16 /* Potato Cloud Fest */;
+			targetProxy = D142461A290F16D800766B16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1424602290F16D400766B16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1424603290F16D400766B16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1424607290F16D700766B16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1424608290F16D700766B16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1424621290F16D800766B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1424622290F16D800766B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1424624290F16D800766B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Potato Cloud Fest/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team1.Potato-Cloud-Fest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1424625290F16D800766B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Potato Cloud Fest/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team1.Potato-Cloud-Fest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1424627290F16D800766B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team1.Potato-Cloud-FestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Potato Cloud Fest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Potato Cloud Fest";
+			};
+			name = Debug;
+		};
+		D1424628290F16D800766B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team1.Potato-Cloud-FestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Potato Cloud Fest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Potato Cloud Fest";
+			};
+			name = Release;
+		};
+		D142462A290F16D800766B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team1.Potato-Cloud-FestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Potato Cloud Fest";
+			};
+			name = Debug;
+		};
+		D142462B290F16D800766B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team1.Potato-Cloud-FestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Potato Cloud Fest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14245F4290F16D300766B16 /* Build configuration list for PBXProject "Potato Cloud Fest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1424621290F16D800766B16 /* Debug */,
+				D1424622290F16D800766B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1424623290F16D800766B16 /* Build configuration list for PBXNativeTarget "Potato Cloud Fest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1424624290F16D800766B16 /* Debug */,
+				D1424625290F16D800766B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1424626290F16D800766B16 /* Build configuration list for PBXNativeTarget "Potato Cloud FestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1424627290F16D800766B16 /* Debug */,
+				D1424628290F16D800766B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1424629290F16D800766B16 /* Build configuration list for PBXNativeTarget "Potato Cloud FestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D142462A290F16D800766B16 /* Debug */,
+				D142462B290F16D800766B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14245F1290F16D300766B16 /* Project object */;
+}
