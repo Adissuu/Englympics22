@@ -1,0 +1,44 @@
+.tickets-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 80%;
+}
+.ticket{
+    border: 0.1rem solid #ef3e36;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.money{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.money button{
+    height: 3rem;
+    width: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color:#FBAE3C;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.money button:hover{
+    transition: ease-in-out 0.2s;
+    transform: scale(1.1);
+    color: #ef3e36;
+}
+
+.info{
+    text-align: left;
+}
+
+.info h4{
+    color: #FBAE3C;
+}

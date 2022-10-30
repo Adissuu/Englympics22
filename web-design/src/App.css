@@ -1,10 +1,50 @@
+/*Basis*/
 .App {
   text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  margin: 0px
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
 }
-/*Basis*/
+.wave{
+ background-image: url('./Assets/wave-haikei.svg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ aspect-ratio: 960/170;
+ width: 100%;
+}
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 2rem;
+  top: 0.5rem;
+  color: #FBAE3C;
+  background: #282c34;
+  border-radius: 0.2rem;
+  box-sizing: content-box;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+.hero h1,.hero h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+strong{
+  color: #ef3e36;
+}
+
+img {
+  position: absolute;
+  left: 0vw;
+  top: -3vh;
+  width: 15rem;
+}
+/*Countdown*/
 .expired-notice {
   text-align: center;
   padding: 2rem;
@@ -23,8 +63,16 @@
   font-size: 1.5rem;
 }
 
+footer {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
 .show-counter {
+  margin-top: 7vh;
+  align-self: center;
   padding: 0.5rem;
+  width: 50vw;
 }
 
 .show-counter .countdown-link {
@@ -36,10 +84,10 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   padding: 0.5rem;
-  border: 1px solid #ebebeb;
+  border: .15rem solid #FBAE3C;
   border-radius: 0.25rem;
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 .show-counter .countdown {
