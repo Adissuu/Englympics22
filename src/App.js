@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import CountdownTimer from './CountdownTimer';
 import logo from "./Assets/logo.png";
@@ -14,16 +14,16 @@ function App() {
 
   return (
     <div className="App wave">
-        {isOn ? <i className='bx bx-cart-alt cart-btn' onClick={toggleSwitch}></i> : <><h1 onClick={toggleSwitch}>O</h1><Cart /></>}
+      {isOn ? <><h1 onClick={toggleSwitch}>O</h1><Cart /></> : <i className='bx bx-cart-alt cart-btn' onClick={toggleSwitch}></i>}
       <div className="hero">
         <h1>Welcome to the <strong>National Potato Festival</strong></h1>
         <h2> January 26th - 27th 2023</h2>
         <h2> Montreal Downtown</h2>
       </div>
-    <img src={logo}></img>
-     
-        <Tabs/>
-     
+      <img src={logo}></img>
+
+      <Tabs />
+
       <footer>
         <CountdownTimer targetDate={DateFest} />
       </footer>
